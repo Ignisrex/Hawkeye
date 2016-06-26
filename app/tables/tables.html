@@ -412,8 +412,8 @@
                                     </thead>
                                     <tbody >
                                        <tr ng-repeat="item in vm.ref_total">
-                                           <td>{{item.labelAnnotations.name}}</td>
-                                            <td>{{item.labelAnnotations.total}}</td>
+                                           <td>{{item.labelAnnotations['0'].description}}</td>
+                                            <td>{{item.total}}</td>
                                         </tr>
                                     </tbody>
                                 </table>
