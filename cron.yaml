@@ -1,0 +1,4 @@
+cron:
+- description: vision cloud check
+  url: /
+  schedule: every 24 hours

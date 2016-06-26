@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "carbide-crowbar-135319",
+  "private_key_id": "36b033f98233e6e8fafecaefad4cf4f322933825",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCKiKuh5t9iDvgV\n7WiKVSUS0tNGkagDNDAuaPanbEN45AjlGuhtUL5+PgLCOTYAYZznGNEEqvoWT/nn\nZWp5KebdSu653bclynBf1f8M6ygclDZ2FDGJVBDXW20o/JHUjgZKYdmq8xadpF6q\nGEjf//bBTmuom2luYUC3UWk+yH2ewrQIECU4zzPjZLhtabntxs8zI5lcfMhnXpHD\n6D1bDXMvmbxm9oc7dN/f0iuy/cebLZ0EvEgYAEfREpHQwn++ZToFsPjjCh0kFKMa\nQpHZQnBcwUprGkkS4w8kpcFVpuhTwPh79PpzflGXPss3IZeT24QOxOwr0SURz3+6\nQ5gXqeGxAgMBAAECggEAWlsD3uhPgIyU4PBkw/z+3kUlyhxMgjJyzoJlhhOF+n55\nEr03Jb2JUZuufvGDuEHybYRxJ+NAlHb7XyJ1jKt4yZMLG61xvDNKkidoYAussN82\nmlNXb+OlzGD0VMxPbVxo2/DwYKCGerFvkO+f8IHpdnFopKMg4/6IkEiIJYvs6zPJ\nZ+vH+yqEyUdlrWvan7eF7dVs4qeW2mgT+V2JVFIG2A4zxQnV1usm08rPCFXuRKo9\nJFVD1TXJGQGceJMh9U7OyCXalZY0uMwoyGDcaaGZODBT1GUw6oH1WyntbP6Kq7Gv\nAWDrjW9wPqUzbjcYw+0DkRIb/3+uDcPvyXpH7ii18QKBgQDU5nuL6eYm3qBlhL+/\nW9g6BtAx/wVDl989ykQQ4iRzBGENiSOnPHqk4VV9HoNs3ds5qFcG3MMq5Yi2YYma\nL8Ibfk8yB3+1CrV/5QcktHOLbwdb+j2wwxIv4v8B+xhA4Qu2S1MnnDRtkL4X0nCM\nt9H8OpIHN2P7RV4HRl8DqGp67QKBgQCmlCk16kAKmzQe8X6ctPqOjZvrmhKf/qGZ\nz28I/QHrgBLHmwruy9r5sLjUoJT6WtwL6wPnDVdd7pUpWzWZfPodcGkJfRVU7BuB\nl2fxoS0AGJSQ3s0+R+e6GZVN0I2EqBLtqrHI4pcGaGPt2wHXFyZoF7iFRtxq7q60\nbJLsXMw1VQKBgQCl/2uXJPFhnzXa0c2cC6WlYMiWIuxczp6uk/XMYDbhQynVHveg\nnqRVyKgaXV9F1Bnpc9sfK6Q03zFgWt6qTNCBFVP0gypM46Ouq8mNEfIBZrmLOqs9\nFmwo0Enapog7lfzGzyZv/PhX8YJ2GovM/EqK6rQPUl3vfh+ZdoIA3SDg5QKBgDol\nJW1oYwpQupTCfwt8MKlpzK8kjLPEUew6d+uPRQhLIEMEX4CTL9BQW3P8yYPKC10t\nn6MbCRAEo5RX/hGhijyUbFWfj76g28kUbHfvZqHN8q3O152Rw9U18OPElGFluZW0\nK3KPhV/7OEZiV/YYYpObFBGRdobs4Zag/3f5vF4xAoGAQn/aGnPeY1BMA2zHCtLn\njAgAk9j05gsn5JNbrTxJ3eK3Ifeyy/K6KpC4sNBBimGSwywC80fNQzlotUmdXb7F\now/vxieDLbxK4Lud+dOvyMP2+g5qqjMCtlSYL45rI2n3YPk+uuj3cbCd6L1p3RW3\n8Zkj5r+267HGQf6ojRPHKIM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "carbide-crowbar-135319@appspot.gserviceaccount.com",
+  "client_id": "104209708420471655831",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/carbide-crowbar-135319%40appspot.gserviceaccount.com"
+}
