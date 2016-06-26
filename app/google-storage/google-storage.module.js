@@ -2,7 +2,7 @@
     function () {
       'use strict';
       //instantiate a module and add necessary dependencies
-      angular.module('app.google-storage', []);
+      angular.module('app.storage', []);
 
     }
 )();

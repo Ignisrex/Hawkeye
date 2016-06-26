@@ -3,8 +3,8 @@
 angular.module('myApp.view1', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view1', {
-    templateUrl: 'view1/view1.html',
+  $routeProvider.when('/form', {
+    templateUrl: 'form/form.html',
     controller: 'View1Ctrl'
   });
 }])

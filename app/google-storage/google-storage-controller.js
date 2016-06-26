@@ -1,31 +1,37 @@
 (
     function () {
       'use strict';
-      angular.module('app.google-storage').
+      angular.module('app.storage').
       controller('GoogleStorageController', GoogleStorageController);
 
         //function to push picture to google storage.
+        GoogleStorageController.$inject = ['$rootScope', 'upload', '$scope'];
 
-        function GoogleStorageController() {
+        function GoogleStorageController($rootScope, upload, $scope) {
             //create local scope as vm which stands for "view model"
             var vm = this;
+            vm.download = getDownload;
 
-            //create google cloud variable
 
-            //get a reference to the vision component
-            var vision = googleCloud.vision();
-            var image = '/images/mosquito_larvae.jpg';
 
-            //            //use the vision api to detect all labels within the picture.
-            vision.detectLabels(image, Labels);
 
-            function Labels(error, labels, apiResponse){
-                alert(error.message);
-                console.log(apiResponse);
-                vm.labels = labels;
-                
+         function getDownload(){
 
-            }
+
+
+             var storage = firebase.storage($rootScope.firebase);
+             console.log(storage)
+             var storageRef=storage.ref();
+             var reference = storageRef.child('mosquito_larvae.jpg');
+
+             reference.getDownloadURL().then(function (url) {
+                 alert(url)
+                 $rootScope.firebase.database().ref('/images').push(url);
+             }).catch(function (error) {
+                 alert(error.code);
+             });
+
+         }
 
 
 
